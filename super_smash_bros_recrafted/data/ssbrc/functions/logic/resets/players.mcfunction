@@ -1,4 +1,4 @@
-function mi:logic/resets/tags
+function ssbrc:logic/resets/tags
 
 gamemode adventure @a
 clear @a
