@@ -174,13 +174,14 @@ item replace entity @a[tag=pit] hotbar.2 with arrow 1
 
 # Ryu
 item replace entity @a[tag=ryu] armor.head with player_head{display:{Name:'{"text":"Ryu"}'},SkullOwner:{Id:[I;2099890581,115490875,-1948141411,-5868919],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjk1YTQ5YzNhNDVlNjg4MzdkMzRkZmViYTAxOGJiYmJkZWYzZmMxMzU3YThiMWRjOTQ1MzI0ODY3ZmI0NDk3NCJ9fX0="}]}}} 1
-#item replace entity @a[tag=ryu] armor.chest with
-#item replace entity @a[tag=ryu] armor.legs with
-#item replace entity @a[tag=ryu] armor.feet with
+item replace entity @a[tag=ryu] armor.chest with leather_chestplate{Unbreakable:1,display:{color:15990781},HideFlags:68} 1
+item replace entity @a[tag=ryu] armor.legs with leather_leggings{Unbreakable:1,display:{color:15990781},HideFlags:68} 1
+item replace entity @a[tag=ryu] armor.feet with leather_boots{Unbreakable:1,display:{color:15975594},HideFlags:68} 1
 
-#item replace entity @a[tag=ryu] hotbar.0 with
-#item replace entity @a[tag=ryu] hotbar.1 with
-#item replace entity @a[tag=ryu] hotbar.2 with
+item replace entity @a[tag=ryu] hotbar.0 with iron_sword{Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:5,Name:"generic.attack_damage",UUID:[I;-121615,30461,16469,-60922]},{AttributeName:"generic.attack_speed",Amount:-1.8,Name:"generic.attack_speed",UUID:[I;-121615,30561,16469,-61122]}],display:{Name:'[{"text":"Collarbone Breaker","italic":false,"color":"#777777","bold":true}]'},HideFlags:6} 1
+item replace entity @a[tag=ryu] hotbar.1 with bow{Unbreakable:1,display:{Name:'[{"text":"Hadoken","italic":false,"color":"aqua","bold":true}]'},Enchantments:[{id:flame,lvl:1},{id:infinity,lvl:1}],HideFlags:5} 1
+item replace entity @a[tag=ryu] hotbar.2 with potion{CustomPotionColor:5505804,display:{Name:'[{"text":"Satsui no Hado Rage","italic":false,"color":"#660000","bold":true}]'},CustomPotionEffects:[{Id:22,Duration:600,Amplifier:1,ShowParticles:0,ShowIcon:0},{Id:1,Duration:600,Amplifier:0,ShowParticles:0,ShowIcon:0},{Id:5,Duration:600,Amplifier:0,ShowParticles:0,ShowIcon:0}]} 1
+item replace entity @a[tag=ryu] hotbar.3 with arrow 1
 
 # Samus
 item replace entity @a[tag=samus] armor.head with player_head{display:{Name:'{"text":"Samus"}'},SkullOwner:{Id:[I;400593784,-1396881673,-1471845721,1890285876],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNmNDRhZGQ3OGJjOWQxYjYxZWM4NDBkYWIzODAyYzQzNzYwOTQ1ZDBhNTFlNGJhODliYWI5ODQ0NzJiOTRmNSJ9fX0="}]}}} 1
