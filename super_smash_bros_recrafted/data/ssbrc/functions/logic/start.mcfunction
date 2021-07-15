@@ -154,23 +154,23 @@ item replace entity @a[tag=megaman] hotbar.3 with arrow 1
 
 # Ness
 item replace entity @a[tag=ness] armor.head with player_head{display:{Name:"{\"text\":\"Ness\"}"},SkullOwner:{Id:[I;-264080651,-525841333,-1862680575,-2035454083],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg0Nzg4MDY1MWQ3NDU3MWY3ZWU0MmIyYzkzZjU2NGViOTg4N2M5NzM3ZTFkZjdlMmY2ZjM2ZjYyMmVjNiJ9fX0="}]}}} 1
-item replace entity @a[tag=ness] armor.chest with 
-item replace entity @a[tag=ness] armor.legs with 
-item replace entity @a[tag=ness] armor.feet with 
+item replace entity @a[tag=ness] armor.chest with leather_chestplate{Unbreakable:1,display:{color:15524170},HideFlags:68} 1
+item replace entity @a[tag=ness] armor.legs with leather_leggings{Unbreakable:1,display:{color:1660119},HideFlags:68} 1
+item replace entity @a[tag=ness] armor.feet with leather_boots{Unbreakable:1,display:{color:16318531},HideFlags:68} 1
 
 item replace entity @a[tag=ness] hotbar.0 with wooden_shovel{Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:6,Name:"generic.attack_damage",UUID:[I;-121615,36431,13025,-72862]},{AttributeName:"generic.attack_speed",Amount:-1.6,Name:"generic.attack_speed",UUID:[I;-121615,36531,13025,-73062]}],display:{Name:'[{"text":"Cracked Bat","italic":false,"color":"#666633","bold":true}]'},HideFlags:28,CanDestroy:[wet_sponge]} 1
-item replace entity @a[tag=ness] hotbar.1 with 
-item replace entity @a[tag=ness] hotbar.2 with 
+item replace entity @a[tag=ness] hotbar.1 with blaze_powder{AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:5,Name:"generic.attack_damage",UUID:[I;-121615,37231,13025,-74462]},{AttributeName:"generic.attack_speed",Amount:-1.8,Name:"generic.attack_speed",UUID:[I;-121615,37331,13025,-74662]}],display:{Name:'[{"text":"PK Fire α","italic":false,"color":"#cc0033","bold":true}]'},Enchantments:[{id:fire_aspect,lvl:1}],HideFlags:1} 1
+item replace entity @a[tag=ness] hotbar.2 with potion{CustomPotionColor:552489,display:{Name:'[{"text":"PK Flash","italic":false,"bold":true,"color":"green"}]'},CustomPotionEffects:[{Id:15,Duration:160,Amplifier:0},{Id:7,Duration:1,Amplifier:0},{Id:2,Duration:160,Amplifier:1},{Id:18,Duration:160,Amplifier:1}]} 1
 
 # Pit
 item replace entity @a[tag=pit] armor.head with player_head{display:{Name:"{\"text\":\"Pit\"}"},SkullOwner:{Id:[I;617392193,-1399961455,-1556336268,-1174641584],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNDVkNzI1NTg3Mjk4YWRhYTc5NmU3MjRkNDhlZmIyOThkNzA2YWE4MjhhN2E0YzJhZjBjYmM5YzNjMiJ9fX0="}]}}} 1
-item replace entity @a[tag=pit] armor.chest with 
-item replace entity @a[tag=pit] armor.legs with 
-item replace entity @a[tag=pit] armor.feet with 
+item replace entity @a[tag=pit] armor.chest with elytra{Unbreakable:1,HideFlags:4} 1
+item replace entity @a[tag=pit] armor.legs with leather_leggings{Unbreakable:1,display:{color:16314344},AttributeModifiers:[{AttributeName:"generic.armor",Amount:4,Name:"generic.armor",UUID:[I;-121615,39131,13025,-78262]}],Enchantments:[{id:projectile_protection,lvl:1}],HideFlags:70} 1
+item replace entity @a[tag=pit] armor.feet with leather_boots{Unbreakable:1,display:{color:10645594},HideFlags:68} 1
 
-item replace entity @a[tag=pit] hotbar.0 with 
-item replace entity @a[tag=pit] hotbar.1 with 
-item replace entity @a[tag=pit] hotbar.2 with 
+item replace entity @a[tag=pit] hotbar.0 with shears{Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Amount:5,Name:"generic.attack_damage",UUID:[I;-121615,38431,13025,-76862]},{AttributeName:"generic.attack_speed",Amount:-2.5,Name:"generic.attack_speed",UUID:[I;-121615,38531,13025,-77062]}],display:{Name:'[{"text":"Wolf Claws","italic":false,"color":"#ff3366","bold":true}]'},Enchantments:[{id:fire_aspect,lvl:1}],HideFlags:5} 1
+item replace entity @a[tag=pit] hotbar.1 with bow{Unbreakable:1,display:{Name:'[{"text":"Palutena Bow","italic":false,"bold":true}]'},Enchantments:[{id:infinity,lvl:1}],HideFlags:5} 1
+item replace entity @a[tag=pit] hotbar.2 with arrow 1
 
 # Ryu
 item replace entity @a[tag=ryu] armor.head with player_head{display:{Name:"{\"text\":\"Ryu\"}"},SkullOwner:{Id:[I;2099890581,115490875,-1948141411,-5868919],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjk1YTQ5YzNhNDVlNjg4MzdkMzRkZmViYTAxOGJiYmJkZWYzZmMxMzU3YThiMWRjOTQ1MzI0ODY3ZmI0NDk3NCJ9fX0="}]}}} 1
